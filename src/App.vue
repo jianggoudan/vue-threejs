@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <earth />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import earth from "@/components/earth";
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    earth
   }
 }
 </script>

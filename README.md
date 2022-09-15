@@ -1,5 +1,10 @@
 # v_three
-
+## Notice
+new version does not have
+addAttribute methods
+so you have to change addAttribute() to 
+setAttribute() in node_modules/three-obj-mtl-loader/index.js
+it contains 4
 ## Project setup
 ```
 npm install

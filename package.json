@@ -7,7 +7,11 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@types/three": "^0.144.0",
     "core-js": "^3.8.3",
+    "three": "^0.144.0",
+    "three-obj-mtl-loader": "^1.0.3",
+    "three-obj-mtl-loader-tnny": "^1.0.1",
     "vue": "^3.2.13",
     "vuex": "^4.0.0"
   },
